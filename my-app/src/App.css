@@ -2,7 +2,7 @@
 body{
   padding: auto;
   margin: auto;
-  background-color: #3c009d;
+  background-color: white;
   font-family: "Poppins", sans-serif;
 
 }
@@ -11,7 +11,7 @@ body{
   flex-direction: column;
   margin: auto;
   margin-top: 200px;
-  background: #fff;
+  background: white;
   padding-bottom: 30px;
 }
 .header{
@@ -23,7 +23,7 @@ body{
   margin-top: 30px;
 }
 .text{
-  color:purple;
+  color: blue;
   font-size: 48px;
   font-weight: 700;
 
@@ -32,7 +32,7 @@ body{
 .underline{
   width: 61px;
   height: 6px;
-  background: #3c009d;
+  background: blue;
   border-radius: 9px;
 }
 .inputs{
@@ -92,7 +92,7 @@ body{
   width: 220px;
   height: 59px;
   color: #fff;
-  background: #4c00b4;
+  background: blue;
   border-radius: 30px;
   font-size: 20px;
   font-weight: 700;
@@ -102,4 +102,10 @@ body{
 .gray{
   background: #EAEAEA;
   color: #797979;
+}
+.submit:hover{
+  background-color: black;
+}
+.underline:hover{
+background-color: black
 }

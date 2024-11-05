@@ -4,7 +4,7 @@ import {MdEmail} from "react-icons/md";
 import {RiLockPasswordFill} from "react-icons/ri" ;
 
 const Form = () => {
- const [action , setaction]  = useState("Login"); 
+ const [action , setaction]  = useState("Sign Up"); 
   return (
     <div className='container'>
       <div className="header">
