@@ -2,8 +2,17 @@
 body{
   padding: auto;
   margin: auto;
-  background-color: white;
+  background-color: black;
   font-family: "Poppins", sans-serif;
+  background-image:url(https://img.freepik.com/free-photo/skyscrapers-from-low-angle-view_1359-568.jpg?t=st=1732144198~exp=1732147798~hmac=8e45773112134da9a53a98e59840dfbc83c4439b35e9cdd307544ed29995cb60&w=740);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+  
+  
 
 }
 .container{
@@ -11,7 +20,7 @@ body{
   flex-direction: column;
   margin: auto;
   margin-top: 200px;
-  background: white;
+  
   padding-bottom: 30px;
 }
 .header{
@@ -21,6 +30,7 @@ body{
   gap: 9px;
   width: 100%;
   margin-top: 30px;
+
 }
 .text{
   color: blue;
@@ -40,6 +50,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: 25px;
+  
 }
 .input{
   display: flex;
@@ -47,7 +58,7 @@ body{
   margin: auto;
   width: 470px;
   height: 80px;
-  background: #eaeaea;
+  background: #fff;
   border-radius: 6px;
 
 }
@@ -68,6 +79,7 @@ body{
   border: none;
   color: #797979;
   font-size: 25px;
+  
 }
 .forgot-password{
   padding-left: 62px;
@@ -84,6 +96,7 @@ body{
   display: flex;
   gap: 30px;
   margin: 60px auto;
+  
 }
 .submit{
   display: flex;
@@ -109,3 +122,47 @@ body{
 .underline:hover{
 background-color: black
 }
+.message-page{
+  color: #EAEAEA;
+  padding: 16px;
+  margin: 32px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  
+
+}.btn{
+  background: blue;
+  color: #fff;
+  padding: 16px;
+  margin: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #4c00b4;
+  transition:  0.5 ease;
+}
+.Login{
+  background: #4c00b4;
+  color: #fff;
+   font-weight: bold;
+   padding: 26px;
+   width: 210px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.Login:hover{
+  background-color: blue;
+}
+
+  background-image:url(https://images.unsplash.com/photo-1501594907352-04cda38ebc29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGZvcm18ZW58MHx8fHwxNjg5OTUwNzM5&ixlib=rb-1.2.1&q=80&w=1080
+  );
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+
+  
